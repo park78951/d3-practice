@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNEXT",
+    "lib": ["ES2015", "ES2016", "ES2017", "ES2018"],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    // "typeRoots": ["./node_moudles/@types", "./types"],
+    "typeRoots": ["./node_moudles/@types"],
+    "sourceMap": true,
+    "allowJs": false,
+    "outDir": "./dist"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
